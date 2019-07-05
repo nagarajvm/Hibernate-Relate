@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate mapping DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.tyss.hibernateApp.User" table="user">
+		<id name="name" type="java.lang.String">
+			<column name="name" />
+		</id>
+		<property name="password" type="java.lang.String">
+			<column name="password" />
+		</property>
+		<property name="username" type="java.lang.String">
+			<column name="username" />
+		</property>
+
+	</class>
+</hibernate-mapping>
